@@ -1,0 +1,670 @@
+@charset "utf-8";
+
+/*============================== 
+	- Template Name: NIKH - Responsive HTML Wedding Template
+	- Author: DoubleEight
+	- Version: 1.0
+	- Website: www.dethemes.com
+================================= */	
+
+/*---------------------- 
+	Stylesheet Guide
+------------------------
+00. PRELOADER
+01. GENERAL
+	01-1 Common
+	01-2 Centered Item
+	01-3 Fullsize/Fullheight
+02. MENU SECTION
+	02-1 SideNavbar Icon
+		02-1-1 Logo
+		02-1-2 Icon Nav
+	02-2 Main Menu
+03. MAP/LOCATION
+04. CONTENT SECTION
+	04-1 Home/Slider
+	04-2 Where and When
+	04-3 Couple
+	04-4 Gallery
+	04-5 Events and Parties
+	04-6 Bridesmaid
+	04-7 Groomsmen
+	04-8 Blog
+	04-9 Accomodations
+	04-10 Gift Registry
+	04-11 RSVP
+05. SLIDE LAYOUT TO RIGHT
+06. ELEMENT
+	06-1 Icon
+		06-1-1 Inline
+		06-1-2 Size
+		06-1-3 Shape
+		06-1-4 Custom Color
+		06-1-5 Effect Zoom 
+		06-1-6 Effect Rotate
+		06-1-7 Effect Square/Rounded To Circle
+	06-2 Button
+	06-3 Autocrop Image
+	06-4 Photo Item
+		06-4-1 Photo Caption
+	06-5 Popup Template
+		06-5-1 Popup Template-1
+		06-5-2 Popup Template-2
+		06-5-3 Popup Template
+	06-6 Section Main Photo
+07. PLUGIN
+	07-1 Masonry Gallery
+	07-2 Magnific Popup
+08. MEDIA SCREEN
+09. STYLE SWITCHER
+*/
+
+
+/*===============================================*/
+/* 00. PRELOADER		 						 */
+/*===============================================*/
+#preloader-overlay{
+	background-color:#953c65; 
+}
+
+#white-screen{
+	background-color:#FFF;
+}
+
+/* Replace pace loader color */
+.pace .pace-progress {
+  	background: #953c65;
+}
+
+#logo_loader {
+ 	background-color:#953c65;	
+  	color:#FFF;
+}
+
+
+
+/*===============================================*/
+/* 01. GENERAL		  	 						 */
+/*===============================================*/
+
+/* 01-1 Common 								     */
+/* ----------------------------------------------*/
+body, html {
+	background-color:#FFF;
+	color:#747474;
+}
+
+a{
+	color:#444444;	
+}
+
+a:hover{
+	color:#953c65;
+}
+
+a:focus{
+	color:#444444;
+}
+
+h1, 
+h2, 
+h3,
+h4,
+h5, 
+h6 {
+	color:#444444;
+}
+
+h1 a, 
+h2 a, 
+h3 a, 
+h4 a, 
+h5 a, 
+h6 a{
+	color:#444444;
+}
+
+h1 a:hover, 
+h2 a:hover, 
+h3 a:hover,
+h4 a:hover, 
+h5 a:hover, 
+h6 a:hover{
+	color:#953c65;
+}
+
+h1.white-color,
+h2.white-color,
+h3.white-color,
+h4.white-color,
+h5.white-color,
+h6.white-color{
+	color:#FFF;
+}
+
+p{
+	color:#747474;
+}
+
+p a{
+	color:#747474;
+}
+
+p a:hover{
+	color:#953c65;
+}
+
+
+/* 01-2 Centered Item                            */
+/* ----------------------------------------------*/
+
+/* 01-3 Fullsize/Fullheight		                 */
+/* ----------------------------------------------*/
+
+
+
+/*===============================================*/
+/* 02. MENU SECTION  	  					     */
+/*===============================================*/
+
+/* 02-1 SideNavbar Icon 						 */
+/* ----------------------------------------------*/
+.sidebar-menuicon{
+	background:#953c65;
+	color:#FFF;
+}
+
+/* 02-1-1 Logo          						 */
+/* ----------------------------------------------*/
+#logo {
+	background-color:#953c65;
+	color:#ddaca2;
+}
+
+/* 02-1-2 Icon Nav         						 */
+/* ----------------------------------------------*/
+
+/* All icon in #navbar-menuicon use de-icon classes */
+/* It can be found at Icon Section  */
+/* 06-1 Icon			    	    */
+
+
+/* 02-2 Main Menu						         */
+/* ----------------------------------------------*/
+#main-menu{
+	background:#3a031c;
+	box-shadow:-5px 0 2px rgba(0,0,0,.15)inset
+}
+
+#main-menu ul li a{
+	color:#fff;
+}
+
+#main-menu ul li a:hover, #main-menu ul li a:hover:focus, #main-menu ul li.active a {
+	background-color:#953c65;
+}
+
+#main-menu ul.nav.child > li > a:hover, #main-menu ul.nav.child > li > a:hover:focus, #main-menu ul.nav.child > li.active > a{
+	background-color:#953c65;
+}
+
+/* 02-4 Menu Color */
+/* ----------------------- */
+/* navbar */
+
+.navbar-default {
+    background-color: #953c65;
+    border-color: #953c65;
+}
+/* title */
+.navbar-default .navbar-brand {
+    color: #ffffff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #ffffff;
+}
+
+/* link */
+.navbar-default .navbar-nav  {
+	background-color:#953c65;
+	
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #ffffff;
+	background-color: #832e55;
+}
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color: #832e55;
+}
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #ffffff;
+    background-color: #832e55;
+}
+/* caret */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #777;
+    border-bottom-color: #777;
+}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #333;
+    border-bottom-color: #333;
+}
+.navbar-default .navbar-nav > .open > a .caret, 
+.navbar-default .navbar-nav > .open > a:hover .caret, 
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: #555;
+    border-bottom-color: #555;
+}
+/* mobile version */
+.navbar-default .navbar-toggle {
+    border-color: #ffffff;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #000;
+	border-color: #000;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #777;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #333;
+    }
+}
+
+
+/*===============================================*/
+/* 03. MAP/LOCATION			                     */
+/*===============================================*/
+#location-overlay{
+	background-color:#000;
+	opacity:0.7;
+}
+
+#location_map{
+	border:10px solid #FFF;
+}
+
+/*===============================================*/
+/* 04. CONTENT SECTION		                     */
+/*===============================================*/
+
+/* 04-1 Home/Slider					        	 */
+/* ----------------------------------------------*/
+#slider{
+	color:#FFF;
+}
+
+#slider img{
+	background-color:#FFF;
+}
+
+#slider h1{	
+	color:#FFF;
+}
+
+#slider-date h3{
+	color:#FFF;
+}
+
+.countdown-amount {
+	background-color:#953c65;
+}
+
+/* 04-2 Where and When			        	 	 */
+/* ----------------------------------------------*/
+
+/* 04-3 Couple					        	     */
+/* ----------------------------------------------*/
+
+/* 04-4 Gallery					        	     */
+/* ----------------------------------------------*/
+/* Gallery Photo use photo item class and 		 */
+/* masonry layout 								 */
+/* 06-4 Photo Item							     */
+/* 07-1 Masonry Gallery						     */
+
+
+/* 04-5 Events and Parties                       */
+/* ----------------------------------------------*/
+
+
+/* 04-6 Bridesmaid		                         */
+/* ----------------------------------------------*/
+/* Bridesmaid Photo use photo item class and 	 */
+/* masonry layout 								 */
+/* 06-4 Photo Item							     */
+/* 07-1 Masonry Gallery						     */	
+
+
+/* 04-7 Groomsmen		                         */
+/* ----------------------------------------------*/
+/* Groomsmen Photo use photo item class and 	 */
+/* masonry layout 								 */
+/* 06-4 Photo Item							     */
+/* 07-1 Masonry Gallery						     */
+
+
+/* 04-8 Blog					        	     */
+/* ----------------------------------------------*/
+
+
+/* 04-9 Accomodations							 */
+/* --------------------------------------------- */
+/* Accomodation use popup-template-3			 */
+/* 06-5-3 Popup Template-3						 */
+
+
+/* 04-10 Gift Registry	                         */
+/* --------------------------------------------- */
+/* Gift Registry use popup-template-3			 */
+/* 06-5-3 Popup Template-3						 */
+
+
+/* 04-11 RSVP			                         */
+/* ----------------------------------------------*/
+.result .bg-danger, .result .bg-success{
+	color:#ffffff;
+}
+
+.result .bg-danger{
+	background-color:#C33
+}
+
+.result .bg-success{
+	background-color:#953c65
+}
+
+input[type=text].form-control, input[type=email].form-control, select.form-control, textarea.form-control{
+	border-color:#747474;
+}
+
+
+/*===============================================*/
+/* 05. SLIDE LAYOUT TO RIGHT	                 */
+/*===============================================*/
+
+/*===============================================*/
+/* 06. ELEMENT			                         */
+/*===============================================*/
+
+/* ----------------------------------------------*/
+/* 06-1 Icon 						        	 */
+/* ----------------------------------------------*/
+
+/*------------------------------------------------*/
+/* 06-1-1 Inline 								  */
+/*------------------------------------------------*/
+
+/*------------------------------------------------*/
+/* 06-1-2 Size 								   	  */
+/*------------------------------------------------*/
+
+/*------------------------------------------------*/
+/* 06-1-3 Shape 								  */
+/*------------------------------------------------*/
+.de-icon.square{
+	background-color:#953c65;
+	color:#FFF;
+}
+
+.de-icon.circle{
+	background-color:#953c65;
+	color:#FFF;
+}
+
+.de-icon.rounded{
+	background-color:#953c65;
+	color:#FFF;
+}
+
+.de-icon.outline{
+	background-color:#FFF;
+	color:#953c65;
+	border:1px solid #953c65;
+}
+
+a:hover .de-icon.circle, a:hover .de-icon.rounded, a:hover .de-icon.square{
+	background-color:#444444;
+	color:#FFF;
+}
+
+a:hover .de-icon.outline{
+	background-color:#953c65;
+	color:#FFF;
+}
+
+/*------------------------------------------------*/
+/* 06-1-4 Custom Color 							  */
+/*------------------------------------------------*/
+.de-icon.customcolor{
+	color:#832e55;	
+}
+
+a:hover .de-icon.customcolor{
+	color:#444444
+}
+
+.de-icon.customcolor i{
+	color:#FFF;
+	opacity:0.5;
+}
+
+a:hover .de-icon.customcolor i{
+	color:#FFF;
+	opacity:1;
+}
+
+.de-icon.circle.customcolor, .de-icon.square.customcolor, .de-icon.rounded.customcolor{
+	background-color:#832e55;
+	color:#fff
+}
+
+a:hover .de-icon.circle.customcolor, a:hover .de-icon.square.customcolor, a:hover .de-icon.rounded.customcolor{
+	background-color:#444444;
+	color:#fff;
+}
+
+/*------------------------------------------------*/
+/* 06-1-5 Effect Zoom 							  */
+/*------------------------------------------------*/
+
+
+/*------------------------------------------------*/
+/* 06-1-6 Effect Rotate 						  */
+/*------------------------------------------------*/
+
+
+/*------------------------------------------------*/
+/* 06-1-7 Effect Square/Rounded To Circle 	      */
+/*------------------------------------------------*/
+a:hover .de-icon.effect3{
+	background-color:#832e55;
+	color:#fff;
+}
+
+
+/*-----------------------------------------------*/
+/* 06-2 Button 									 */
+/*-----------------------------------------------*/
+/* Replace bootstrap default button color		 */
+
+.btn-default{
+	background-color:#953c65 !important;
+	color:#fff !important;
+	border-color:#953c65 !important;
+}
+
+.btn-default:hover{
+	background-color:#000000 !important;
+	border-color:#000000 !important;
+}
+
+.custom-size{
+	padding:13px 60px; 
+	margin-top:30px
+}
+
+/*-----------------------------------------------*/
+/* 06-3 Autocrop Image							 */
+/*-----------------------------------------------*/
+
+/*-----------------------------------------------*/
+/* 06-4 Photo Item								 */
+/*-----------------------------------------------*/
+.photo-item-overlay {
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+/* 06-4-1 Photo Caption 						 */
+/*-----------------------------------------------*/
+.photo-caption{
+	color:#ffffff; 
+}
+
+.other-caption{
+	color:#ffffff; 
+}
+
+/*-----------------------------------------------*/
+/* 06-5 Popup Template							 */
+/*-----------------------------------------------*/
+
+/* 06-5-1 Popup Template-1	 					 */
+/*-----------------------------------------------*/
+#popup-template-1{
+	background-color:#FFF;
+}
+
+#popup-template-1 #additional-title span{
+	border:1px solid #FFF; 
+	color:#FFF; 
+}
+
+#popup-template-1 #main-image-overlay{
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+/* 06-5-2 Popup Template-2	                     */
+/* ----------------------------------------------*/
+#popup-template-2{
+	background-color:#FFF; 
+}
+
+#popup-template-2 #the-content{
+	background-color:#FFF;
+}
+
+#popup-template-2 .list-info{
+	color:#747474;
+}
+
+#popup-template-2 .list-info i{
+	color:#000;
+}
+
+/* 06-5-3 Popup Template-3		                 */
+/* ----------------------------------------------*/
+#popup-template-3{
+	background-color:#FFF;
+}
+
+
+/*===============================================*/
+/* 07. PLUGIN			 						 */
+/*===============================================*/
+
+/* 07-1 Masonry Gallery		                     */
+/* ----------------------------------------------*/
+
+/* 07-2 Magnific Popup*/
+
+
+
+/*===============================================*/
+/* 08. MEDIA SCREEN		  						 */
+/*===============================================*/
+@media (max-width:1199px){
+/* 02-1 SideNavbar Icon 						 */
+/* ----------------------------------------------*/
+
+/* 02-1-1 Logo          						 */
+/* ----------------------------------------------*/
+
+
+/* 02-1-2 Icon Nav         						 */
+/* ----------------------------------------------*/
+
+
+/* 02-2 Main Menu						         */
+/* ----------------------------------------------*/
+#main-menu{
+	background-color:#953c65;
+	border-bottom:1px solid #323D3D
+}
+
+#main-menu > ul{
+	background-color:#953c65;
+}
+
+/* 04. Content Section							 */
+/* ----------------------------------------------*/
+
+
+/* 04-4 Gallery					        	     */
+/* ----------------------------------------------*/
+
+
+/* 04-5 Events and Parties                       */
+/* ----------------------------------------------*/
+
+
+/* 04-6 Bridesmaid		                         */
+/* ----------------------------------------------*/
+
+
+/* 04-7 Groomsmen		                         */
+/* ----------------------------------------------*/
+
+
+/* 04-8 Blog					        	     */
+/* ----------------------------------------------*/
+
+
+/* 04-11 RSVP			                         */
+/* ----------------------------------------------*/
+
+
+/* 05. Slide Layout to Right					 */
+/* ----------------------------------------------*/
+
+
+/* 06-5-2 Popup Template-2	                     */
+/* ----------------------------------------------*/
+
+
+/* 06-5-3 Popup Template-3	                     */
+/* ----------------------------------------------*/
+
+
+}
